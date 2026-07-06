@@ -17,6 +17,14 @@ structured events, events become natural-language safety summaries.
 - [ ] Streamlit dashboard + demo video
 
 ## Quick start
+
+    # create virtual environment
+    python -m venv venv
+    [LINUX] source venv/bin/activate
+    [OR]
+    [WINDOWS] .\venv\Scripts\activate
+    
+    # install dependencies
     pip install opencv-python torch torchvision ultralytics pandas tqdm seaborn scipy
     [OR]
     curl -O https://raw.githubusercontent.com/ultralytics/yolov5/refs/heads/master/requirements.txt
